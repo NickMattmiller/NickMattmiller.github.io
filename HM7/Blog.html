@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://getbootstrap.com/examples/blog/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Blog Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/blog/blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./Blog_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active"  href=" " >Home</a>
+          <a class="blog-nav-item" href =" " >About</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">Nick's Blog </h1>
+        <p class="lead blog-description">Blog for CIS-411 programs</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">About Node.js </h2>
+            <p class="blog-post-meta">February 24, 2015 by <a>Nick</a></p>
+	<h3>Overview of Node.js</h3>
+	<p>A non-blocking IO allows the client to continue execution of code after making requests to the server by following an asynchronous model. Asynchronous means that the order of executions is not sequential within the code. This is performed by using callback functions. When the client makes a request to the server, the server immediately responds with a callback to the client , which allows the next queued function to be executed. When the server is finished with the initial request, it returns the data to the client. This follows the concept of non-blocking IO because code execution is never halted.</p>
+	<p>A server side platform which follows event-driven and non-blocking IO allows for the creation of real-time applications. Node.js uses code libraries which are written in JavaScript and run on Google’s V8 engine. Node.js allows for asynchronous IO with HTTP and direct TCP sockets, allowing web applications to act as a standalone web server. It allows for thousands of connections simultaneously, but utilizes only one thread.  </p>
+	<p>Until recently, web applications have utilized stateless request and response methods. This simply means that only the client can initiate a connection with the server, but the server cannot be the first to initiate connection with the client. Sequential server side languages such as PHP follow blocking IO processes which means that the client must receive a response from the server before it can continue execution. While the client waits for a response from the server, memory is frozen and the thread process stalls. If the client needs to make another request to the server during this period, a new thread must be created by the server. This consumes even more processing power and memory. </p>
+	<p>Node differs from this approach by allowing client execution to continue after requests are made to the server, which greatly improves overall efficiency in applications which require real time communication ,but little computational requirements. Development is also different because code is not necessarily executed in a sequential order. This means that the order in which functions are written is irrelevant to their order of execution, while languages like PHP follow a sequential logic. Another major difference with node is that JavaScript is used for both the Server and Client side development whereas older languages required JavaScript knowledge on the client side and also knowledge of a separate server side language.</p>
+            <p></p>
+            <hr>
+            
+          </div><!-- /.blog-post -->
+
+        
+
+          <nav>
+            <ul class="pager">
+              <li><a href=" ">Previous</a></li>
+              <li><a href=" ">Next</a></li>
+            </ul>
+          </nav>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p> <em></em> </p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="">March 2015</a></li>
+              <li><a href="">February 2015</a></li>
+              <li><a href="">January 2015</a></li>
+ 
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="">GitHub</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p></p>
+      <p>
+        <a>Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Blog_files/jquery.min.js"></script>
+    <script src="./Blog_files/bootstrap.min.js"></script>
+    <script src="./Blog_files/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./Blog_files/ie10-viewport-bug-workaround.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1424826492193">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1424826492193" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div></body></html>
